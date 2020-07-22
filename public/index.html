@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./build/tailwind.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  <title>Cosmo-Junkie</title>
+</head>
+
+<body>
+  <header>
+    <nav class="site-nav grid grid2">
+      <h5>Cosmo Junkie</h5>
+      <ul>
+        <li class="nav-li"><a class="nav-a" href="#portfolio">Portfolio</a></li>
+        <li class="nav-li"><a class="nav-a" href="#skills">Skills</a></li>
+        <li class="nav-li"><a class="nav-a" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="welcome" class="grid grid2 pl-6 pr-6">
+    <div class="col-start-1 col-end-5 mt-auto mb-auto">
+      <h2>Space Enthusiast<br />& JavaScript Developer</h2>
+      <p class="leading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo consequat.</p>
+      <a href="#portfolio" class="button my-5 mx-0">View my work</a>
+    </div>
+    <div class="col-start-5 col-end-9">
+      <img class="max-w-180" src="./assets/images/banner_image.png" alt="Picture of Planet">
+    </div>
+  </section>
+
+  <section id="portfolio" class="bg-cover bg-no-repeat bg-bottom py-5 px-6"
+    style="background-image: url(./assets/images/square_bg.png)">
+    <h3 class="mb-0 text-center sm:mb-10">Some of my Projects</h3>
+    <div class="grid grid2 projects">
+      <a href="#">
+        <img src="./assets/images/project_1.png" alt="space race image">
+        <h4 class="lg:mt-8 mt-2 text-purply2 text-center">Space Race Game</h4>
+      </a>
+      <a class="yes" href="#">
+        <img src="./assets/images/project_3.png" alt="captain cosmo image">
+        <h4 class="lg:mt-8 mt-2 text-purply2 text-center">Captain Cosmo Blog</h4>
+      </a>
+      <a href="#">
+        <img src="./assets/images/project_2.png" alt="planet boy image">
+        <h4 class="lg:mt-8 mt-2 text-purply2 text-center">Planet Boy API</h4>
+      </a>
+    </div>
+  </section>
+
+  <section id="skills" class="py-8 px-5 bg-darkBlue">
+    <h3 class="text-center">Things I Can Do</h3>
+    <ul class="grid grid2 my-10">
+      <li>
+        <img src="./assets/images/comet_1.svg" alt="comet">
+        <h4>JavaScript</h4>
+      </li>
+      <li>
+        <img src="./assets/images/comet_2.svg" alt="comet">
+        <h4>React</h4>
+      </li>
+      <li>
+        <img src="./assets/images/comet_3.svg" alt="comet">
+        <h4>Firebase</h4>
+      </li>
+      <li>
+        <img src="./assets/images/comet_4.svg" alt="comet">
+        <h4>Flutter</h4>
+      </li>
+    </ul>
+    <p class="leading xl:mx-64 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fringilla
+      lacus diam.
+      Mauris
+      fringilla consectetur nibh, sit amet tempus augue.</p>
+  </section>
+
+  <section id="contact" class="py-8 px-5 bg-darkerBlue">
+    <h3 class="text-center">Get In Touch</h3>
+    <p class="leading text-center">Lorem ipsum dolor sit amet, consectetur.</p>
+    <form class="w-80 max-w-400 my-5 mx-auto text-center">
+      <input type="text" placeholder='NAME'>
+      <input type="email" placeholder='EMAIL'>
+      <textarea placeholder='YOUR MESSAGE'></textarea>
+      <button class="button mt-2">Send Flare</button>
+    </form>
+  </section>
+
+  <footer style="background-image: url(assets/images/footer_image.png);">
+    <div class="grid">
+      <p class="copyright lg:text-2xl">Copyright 2020 <br> Cosmo Junkie</p>
+      <ul class="col-start-7 col-start-9 flex justify-end">
+        <li><a href="#"><img src="assets/images/icon_fb.svg" alt="facebook"></a></li>
+        <li><a href="#"><img src="assets/images/icon_tw.svg" alt="twitter"></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
